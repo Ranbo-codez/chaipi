@@ -1,0 +1,529 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1440" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif">
+<rect width="1800" height="1440" fill="#ffffff"/>
+<text x="40" y="46" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:28px;font-weight:700" fill="#1b1b1b">ChAIpi: the complete circuit</text>
+<text x="40" y="74" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15px;font-weight:400" fill="#5d5d5d">Every part and every wire. Coloured lines are wires; a dot is a join; lines that cross without a dot (or hop over) are not joined.</text>
+<text x="40" y="94" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15px;font-weight:400" fill="#5d5d5d">⏚ means "to GND". A bar labelled 3.3 V or 5 V means "to that supply". Small grey numbers are Pi header pin numbers (see header-map.svg). Dashed = optional or later.</text>
+<rect x="40" y="130" width="180" height="160" rx="10" fill="#fbfaf8" stroke="#3a2a22" stroke-width="2.4"/>
+<text x="130.0" y="154" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15.5px;font-weight:700" fill="#1b1b1b">USB-C breakout</text>
+<text x="130.0" y="308" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">charging + data;</text>
+<text x="130.0" y="324" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">CC resistors on board</text>
+<path d="M220 180 L236 180" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212" y="184.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#a0522d">VBUS</text>
+<path d="M220 212 L236 212" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212" y="216.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#1b1b1b">GND</text>
+<path d="M220 246 L236 246" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212" y="250.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#5b4fc8">D+</text>
+<path d="M220 272 L236 272" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212" y="276.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#5b4fc8">D−</text>
+<path d="M236 246 L250 246" fill="none" stroke="#5b4fc8" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="250" y="237" width="62" height="18" rx="9" fill="#fff" stroke="#5b4fc8" stroke-width="2"/>
+<text x="281" y="250.5" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:700" fill="#5b4fc8">USB D+</text>
+<path d="M236 272 L250 272" fill="none" stroke="#5b4fc8" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="250" y="263" width="62" height="18" rx="9" fill="#fff" stroke="#5b4fc8" stroke-width="2"/>
+<text x="281" y="276.5" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:700" fill="#5b4fc8">USB D−</text>
+<path d="M236 212 L252 212 L252 220" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M252 220 L252 222" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="243.0" y1="222" x2="261.0" y2="222" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="246.0" y1="227" x2="258.0" y2="227" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="249.0" y1="232" x2="255.0" y2="232" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<rect x="380" y="130" width="180" height="160" rx="10" fill="#fbfaf8" stroke="#3a2a22" stroke-width="2.4"/>
+<text x="470.0" y="154" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15.5px;font-weight:700" fill="#1b1b1b">TP4056 charger</text>
+<text x="470.0" y="242" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">with protection;</text>
+<text x="470.0" y="258" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">its own USB-C stays empty</text>
+<path d="M364 180 L380 180" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="388" y="184.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#a0522d">IN+</text>
+<path d="M364 212 L380 212" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="388" y="216.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#1b1b1b">IN−</text>
+<path d="M560 180 L576 180" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="552" y="184.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#8c1d18">OUT+</text>
+<path d="M560 212 L576 212" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="552" y="216.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#1b1b1b">OUT−</text>
+<path d="M430 290 L430 306" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="430" y="283" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:600" fill="#8c1d18">B+</text>
+<path d="M510 290 L510 306" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="510" y="283" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:600" fill="#1b1b1b">B−</text>
+<path d="M236 180 L364 180" fill="none" stroke="#a0522d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M364 212 L348 212 L348 220" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M348 220 L348 222" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="339.0" y1="222" x2="357.0" y2="222" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="342.0" y1="227" x2="354.0" y2="227" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="345.0" y1="232" x2="351.0" y2="232" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M576 212 L592 212 L592 220" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M592 220 L592 222" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="583.0" y1="222" x2="601.0" y2="222" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="586.0" y1="227" x2="598.0" y2="227" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="589.0" y1="232" x2="595.0" y2="232" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="320" cy="180" r="5" fill="#a0522d"/>
+<path d="M320 180 L320 195.4" fill="none" stroke="#a0522d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M320 234.6 L320 250" fill="none" stroke="#a0522d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="313" y="195.4" width="14" height="39.19999999999999" rx="2" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<text x="308" y="219.0" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:600" fill="#5d5d5d">100 k</text>
+<path d="M320 250 L320 262" fill="none" stroke="#0f8b8d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="320" cy="262" r="5" fill="#0f8b8d"/>
+<path d="M320 262 L320 276.08" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M320 311.92 L320 326" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="313" y="276.08" width="14" height="35.84000000000003" rx="2" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<text x="308" y="298.0" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:600" fill="#5d5d5d">100 k</text>
+<path d="M320 326 L320 332" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="311.0" y1="332" x2="329.0" y2="332" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="314.0" y1="337" x2="326.0" y2="337" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="317.0" y1="342" x2="323.0" y2="342" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<rect x="400" y="360" width="160" height="104" rx="8" fill="none" stroke="#5d5d5d" stroke-width="1.6" stroke-dasharray="4 4"/>
+<line x1="430" y1="388" x2="462" y2="388" stroke="#1b1b1b" stroke-width="2.8"/>
+<line x1="437" y1="398" x2="455" y2="398" stroke="#1b1b1b" stroke-width="5"/>
+<path d="M446 374 L446 388" fill="none" stroke="#8c1d18" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M446 398 L446 414" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="467" y="386" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:700" fill="#1b1b1b">+</text>
+<text x="446" y="432" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:600" fill="#5d5d5d"></text>
+<line x1="498" y1="388" x2="530" y2="388" stroke="#1b1b1b" stroke-width="2.8"/>
+<line x1="505" y1="398" x2="523" y2="398" stroke="#1b1b1b" stroke-width="5"/>
+<path d="M514 374 L514 388" fill="none" stroke="#8c1d18" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M514 398 L514 414" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="535" y="386" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:700" fill="#1b1b1b">+</text>
+<text x="514" y="432" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:600" fill="#5d5d5d"></text>
+<text x="480" y="458" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:700" fill="#5d5d5d">2 × 3.7 V cells, each with BMS</text>
+<path d="M430 306 L430 340 L446 340 L446 374" fill="none" stroke="#8c1d18" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M446 352 L514 352 L514 374" fill="none" stroke="#8c1d18" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="446" cy="352" r="5" fill="#8c1d18"/>
+<path d="M510 306 L510 322 L576 322 L576 426 L514 426 L514 414" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M446 414 L446 426 L514 426" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="514" cy="426" r="5" fill="#222222"/>
+<text x="590" y="344" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:400;font-style:italic" fill="#5d5d5d">add a 2 A resettable</text>
+<text x="590" y="358" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:400;font-style:italic" fill="#5d5d5d">fuse in B+ (recommended)</text>
+<path d="M576 180 L620 180" fill="none" stroke="#8c1d18" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="616" y="154" width="76" height="40" rx="6" fill="none" stroke="#5d5d5d" stroke-width="1.4" stroke-dasharray="4 4"/>
+<circle cx="626" cy="180" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<circle cx="682" cy="180" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<line x1="628" y1="178" x2="674" y2="164" stroke="#1b1b1b" stroke-width="2.6"/>
+<text x="654" y="146" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:700" fill="#5d5d5d">rocker switch (later)</text>
+<text x="650" y="212" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:400;font-style:italic" fill="#5d5d5d">until fitted, join these</text>
+<path d="M685 180 L784 180" fill="none" stroke="#8c1d18" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="750" cy="180" r="5" fill="#8c1d18"/>
+<path d="M750 180 L750 195.4" fill="none" stroke="#8c1d18" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M750 234.6 L750 250" fill="none" stroke="#8c1d18" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="743" y="195.4" width="14" height="39.19999999999999" rx="2" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<text x="738" y="219.0" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:600" fill="#5d5d5d">100 k</text>
+<path d="M750 250 L750 262" fill="none" stroke="#0f8b8d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="750" cy="262" r="5" fill="#0f8b8d"/>
+<path d="M750 262 L750 276.08" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M750 311.92 L750 326" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="743" y="276.08" width="14" height="35.84000000000003" rx="2" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<text x="738" y="298.0" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:600" fill="#5d5d5d">100 k</text>
+<path d="M750 326 L750 332" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="741.0" y1="332" x2="759.0" y2="332" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="744.0" y1="337" x2="756.0" y2="337" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="747.0" y1="342" x2="753.0" y2="342" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<rect x="800" y="130" width="180" height="120" rx="10" fill="#fbfaf8" stroke="#3a2a22" stroke-width="2.4"/>
+<text x="890.0" y="154" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15.5px;font-weight:700" fill="#1b1b1b">MT3608 boost</text>
+<text x="890.0" y="268" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">set to 5.1 V first</text>
+<text x="890.0" y="284" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">with a multimeter</text>
+<path d="M784 180 L800 180" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="808" y="184.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#8c1d18">VIN+</text>
+<path d="M784 212 L800 212" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="808" y="216.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#1b1b1b">VIN−</text>
+<path d="M784 212 L772 212 L772 220" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M772 220 L772 222" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="763.0" y1="222" x2="781.0" y2="222" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="766.0" y1="227" x2="778.0" y2="227" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="769.0" y1="232" x2="775.0" y2="232" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M980 180 L996 180" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="972" y="184.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#d7263d">VOUT+</text>
+<path d="M980 212 L996 212" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="972" y="216.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#1b1b1b">VOUT−</text>
+<path d="M996 212 L1012 212 L1012 220" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1012 220 L1012 222" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1003.0" y1="222" x2="1021.0" y2="222" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1006.0" y1="227" x2="1018.0" y2="227" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1009.0" y1="232" x2="1015.0" y2="232" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M996 180 L1060 180 L1060 464" fill="none" stroke="#d7263d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1068" y="206" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:700" fill="#d7263d">5 V</text>
+<circle cx="1060" cy="330" r="5" fill="#d7263d"/>
+<path d="M1060 330 L1120 330 L1120 346" fill="none" stroke="#d7263d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1120 346 L1120 367.0" fill="none" stroke="#d7263d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1120 377.0 L1120 398" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1107" y1="367.0" x2="1133" y2="367.0" stroke="#1b1b1b" stroke-width="2.6"/>
+<path d="M1107 380.0 Q1120 373.0 1133 380.0" fill="none" stroke="#1b1b1b" stroke-width="2.6"/>
+<text x="1104" y="362.0" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:700" fill="#1b1b1b">+</text>
+<text x="1138" y="376.0" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:600" fill="#5d5d5d">470–1000 µF, stripe to GND</text>
+<path d="M1120 398 L1120 404" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1111.0" y1="404" x2="1129.0" y2="404" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1114.0" y1="409" x2="1126.0" y2="409" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1117.0" y1="414" x2="1123.0" y2="414" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M320 262 L340 262 L340 470 L520 470 L520 484" fill="none" stroke="#0f8b8d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M750 262 L772 262 L772 440 L600 440 L600 484" fill="none" stroke="#0f8b8d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="348" y="484" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:700" fill="#0f8b8d">USB SENSE</text>
+<text x="606" y="458" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:700" fill="#0f8b8d">BATTERY SENSE</text>
+<rect x="820" y="480" width="260" height="760" rx="14" fill="#eaf4ee" stroke="#1f7a4d" stroke-width="3"/>
+<text x="950.0" y="896" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:20px;font-weight:700" fill="#145234">Raspberry Pi</text>
+<text x="950.0" y="921" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:20px;font-weight:700" fill="#145234">Zero 2 W</text>
+<text x="950.0" y="944" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">no header pins: solder wires</text>
+<text x="950.0" y="960" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">into the holes</text>
+<path d="M1060 464 L1060 480" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1060" y="497" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:600" fill="#d7263d">5V</text>
+<text x="1068" y="456" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;font-style:italic" fill="#5d5d5d">pins 2, 4</text>
+<path d="M804 520 L820 520" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="828" y="524.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#ee7d1a">3V3</text>
+<text x="800" y="514" text-anchor="end" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">1</text>
+<path d="M804 600 L820 600" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="828" y="604.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#13a06f">GPIO2 SDA</text>
+<text x="800" y="594" text-anchor="end" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">3</text>
+<path d="M804 640 L820 640" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="828" y="644.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#13a06f">GPIO3 SCL</text>
+<text x="800" y="634" text-anchor="end" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">5</text>
+<path d="M804 1000 L820 1000" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="828" y="1004.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#c79400">GPIO27</text>
+<text x="800" y="994" text-anchor="end" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">13</text>
+<path d="M804 1050 L820 1050" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="828" y="1054.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#c79400">GPIO5</text>
+<text x="800" y="1044" text-anchor="end" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">29</text>
+<path d="M804 1100 L820 1100" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="828" y="1104.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#c79400">GPIO6</text>
+<text x="800" y="1094" text-anchor="end" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">31</text>
+<path d="M804 1150 L820 1150" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="828" y="1154.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#c79400">GPIO26</text>
+<text x="800" y="1144" text-anchor="end" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">37</text>
+<path d="M804 1200 L820 1200" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="828" y="1204.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#c79400">GPIO17</text>
+<text x="800" y="1194" text-anchor="end" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">11</text>
+<path d="M1080 520 L1096 520" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1072" y="524.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#ee7d1a">3V3</text>
+<text x="1100" y="514" text-anchor="start" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">17</text>
+<path d="M1080 600 L1096 600" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1072" y="604.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#2f6fe0">GPIO8 CE0</text>
+<text x="1100" y="594" text-anchor="start" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">24</text>
+<path d="M1080 640 L1096 640" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1072" y="644.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#2f6fe0">GPIO24</text>
+<text x="1100" y="634" text-anchor="start" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">18</text>
+<path d="M1080 680 L1096 680" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1072" y="684.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#2f6fe0">GPIO25</text>
+<text x="1100" y="674" text-anchor="start" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">22</text>
+<path d="M1080 720 L1096 720" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1072" y="724.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#2f6fe0">GPIO10 MOSI</text>
+<text x="1100" y="714" text-anchor="start" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">19</text>
+<path d="M1080 760 L1096 760" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1072" y="764.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#2f6fe0">GPIO11 SCLK</text>
+<text x="1100" y="754" text-anchor="start" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">23</text>
+<path d="M1080 800 L1096 800" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1072" y="804.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#d6337a">GPIO13 PWM</text>
+<text x="1100" y="794" text-anchor="start" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">33</text>
+<path d="M1080 1000 L1096 1000" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1072" y="1004.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#d6337a">GPIO12</text>
+<text x="1100" y="994" text-anchor="start" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">32</text>
+<path d="M1080 1100 L1096 1100" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1072" y="1104.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#c79400">GPIO23</text>
+<text x="1100" y="1094" text-anchor="start" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">16</text>
+<path d="M1080 1150 L1096 1150" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1072" y="1154.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#c79400">GPIO16</text>
+<text x="1100" y="1144" text-anchor="start" style="font-family:'JetBrains Mono',Menlo,Consolas,monospace;font-size:11px;font-weight:700" fill="#5d5d5d">36</text>
+<path d="M860 1240 L860 1256" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="860" y="1233" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:600" fill="#1b1b1b">GND</text>
+<path d="M860 1256 L860 1262" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="851.0" y1="1262" x2="869.0" y2="1262" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="854.0" y1="1267" x2="866.0" y2="1267" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="857.0" y1="1272" x2="863.0" y2="1272" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<text x="840" y="1274" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;font-style:italic" fill="#5d5d5d">pins 6 9 14 20 25 30 34 39</text>
+<path d="M950 1240 L950 1256" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="950" y="1233" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:600" fill="#5b4fc8">D+</text>
+<path d="M990 1240 L990 1256" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="990" y="1233" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:600" fill="#5b4fc8">D−</text>
+<text x="970" y="1214" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:700" fill="#5b4fc8">USB data</text>
+<path d="M950 1256 L950 1274 L910 1274 L910 1286" fill="none" stroke="#5b4fc8" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="879" y="1286" width="62" height="18" rx="9" fill="#fff" stroke="#5b4fc8" stroke-width="2"/>
+<text x="910" y="1299.5" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:700" fill="#5b4fc8">USB D+</text>
+<path d="M990 1256 L990 1274 L1030 1274 L1030 1286" fill="none" stroke="#5b4fc8" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="999" y="1286" width="62" height="18" rx="9" fill="#fff" stroke="#5b4fc8" stroke-width="2"/>
+<text x="1030" y="1299.5" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:700" fill="#5b4fc8">USB D−</text>
+<text x="970" y="1332" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:400;font-style:italic" fill="#5d5d5d">to the Pi's USB_DP / USB_DM test pads (underneath, by the USB socket)</text>
+<line x1="1036" y1="1240" x2="1036" y2="1250" stroke="#3a2a22" stroke-width="2.4"/>
+<text x="1036" y="1233" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:600" fill="#6b7785">TX</text>
+<line x1="1062" y1="1240" x2="1062" y2="1250" stroke="#3a2a22" stroke-width="2.4"/>
+<text x="1062" y="1233" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:600" fill="#6b7785">RX</text>
+<text x="1050" y="1266" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;font-style:italic" fill="#6b7785">pins 8, 10:</text>
+<text x="1050" y="1280" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;font-style:italic" fill="#6b7785">keep free (serial console)</text>
+<rect x="420" y="484" width="200" height="276" rx="10" fill="#fbfaf8" stroke="#3a2a22" stroke-width="2.4"/>
+<text x="520.0" y="566" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15.5px;font-weight:700" fill="#1b1b1b">ADS1115</text>
+<text x="520.0" y="584" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">analog in · I2C 0x48</text>
+<text x="520" y="780" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:400;font-style:italic" fill="#5d5d5d">board pins: VDD GND SCL SDA ADDR ALRT A0 A1 A2 A3</text>
+<path d="M620 520 L636 520" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="612" y="524.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#ee7d1a">VDD</text>
+<path d="M620 556 L636 556" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="612" y="560.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#1b1b1b">GND</text>
+<path d="M620 600 L636 600" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="612" y="604.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#13a06f">SDA</text>
+<path d="M620 640 L636 640" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="612" y="644.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#13a06f">SCL</text>
+<path d="M620 680 L636 680" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="612" y="684.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#1b1b1b">ADDR</text>
+<path d="M620 716 L636 716" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="612" y="720.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#5d5d5d">ALRT</text>
+<path d="M404 620 L420 620" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="428" y="624.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#0f8b8d">A0</text>
+<path d="M404 650 L420 650" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="428" y="654.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#0f8b8d">A1</text>
+<path d="M520 468 L520 484" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="520" y="501" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:600" fill="#0f8b8d">A3</text>
+<path d="M600 468 L600 484" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="600" y="501" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:600" fill="#0f8b8d">A2</text>
+<path d="M636 520 L804 520" fill="none" stroke="#ee7d1a" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M636 556 L660 556 L660 562" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M660 562 L660 564" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="651.0" y1="564" x2="669.0" y2="564" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="654.0" y1="569" x2="666.0" y2="569" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="657.0" y1="574" x2="663.0" y2="574" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M636 680 L660 680 L660 686" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M660 686 L660 688" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="651.0" y1="688" x2="669.0" y2="688" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="654.0" y1="693" x2="666.0" y2="693" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="657.0" y1="698" x2="663.0" y2="698" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<text x="520" y="796" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:400;font-style:italic" fill="#5d5d5d">ADDR to GND sets the address to 0x48</text>
+<path d="M636 716 L650 716" fill="none" stroke="#b9bec6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="645" y1="711" x2="655" y2="721" stroke="#5d5d5d" stroke-width="2"/>
+<line x1="645" y1="721" x2="655" y2="711" stroke="#5d5d5d" stroke-width="2"/>
+<path d="M636 600 L804 600" fill="none" stroke="#13a06f" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M636 640 L740 640" fill="none" stroke="#13a06f" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M740 640 A 12 12 0 0 1 764 640" fill="none" stroke="#13a06f" stroke-width="3"/>
+<path d="M764 640 L804 640" fill="none" stroke="#13a06f" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="752" cy="600" r="5" fill="#13a06f"/>
+<circle cx="790" cy="640" r="5" fill="#13a06f"/>
+<rect x="110" y="486" width="190" height="230" rx="10" fill="#fbfaf8" stroke="#3a2a22" stroke-width="2.4"/>
+<text x="205.0" y="510" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15.5px;font-weight:700" fill="#1b1b1b">Joystick</text>
+<text x="205.0" y="528" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">PS2 module (KY-023)</text>
+<text x="205.0" y="544" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">header removed;</text>
+<text x="205.0" y="560" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">its +5V pin goes to 3.3 V!</text>
+<path d="M300 576 L316 576" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="292" y="580.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#1b1b1b">GND</text>
+<path d="M300 600 L316 600" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="292" y="604.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#ee7d1a">+5V</text>
+<path d="M300 620 L316 620" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="292" y="624.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#0f8b8d">VRx</text>
+<path d="M300 650 L316 650" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="292" y="654.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#0f8b8d">VRy</text>
+<path d="M300 690 L316 690" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="292" y="694.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#c79400">SW</text>
+<path d="M316 576 L332 576 L332 582" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M332 582 L332 584" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="323.0" y1="584" x2="341.0" y2="584" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="326.0" y1="589" x2="338.0" y2="589" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="329.0" y1="594" x2="335.0" y2="594" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M316 600 L342 600" fill="none" stroke="#ee7d1a" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="342" y1="591" x2="342" y2="609" stroke="#ee7d1a" stroke-width="3.4" stroke-linecap="round"/>
+<text x="349" y="604.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700" fill="#ee7d1a">3.3 V</text>
+<path d="M316 620 L404 620" fill="none" stroke="#0f8b8d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M316 650 L404 650" fill="none" stroke="#0f8b8d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M316 690 L340 690 L340 1000 L804 1000" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="520" y="992" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:700" fill="#c79400">joystick press</text>
+<rect x="420" y="822" width="200" height="150" rx="10" fill="#fbfaf8" stroke="#3a2a22" stroke-width="2.4"/>
+<text x="520.0" y="846" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15.5px;font-weight:700" fill="#1b1b1b">DS3231 clock</text>
+<text x="520.0" y="864" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">ZS-042 + CR2032 (+ up);</text>
+<text x="520.0" y="880" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">remove its charging resistor</text>
+<path d="M620 920 L636 920" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="612" y="924.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#13a06f">SCL</text>
+<path d="M620 890 L636 890" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="612" y="894.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#13a06f">SDA</text>
+<path d="M620 948 L636 948" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="612" y="952.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#ee7d1a">VCC</text>
+<path d="M404 890 L420 890" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="428" y="894.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#5d5d5d">32K</text>
+<path d="M404 920 L420 920" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="428" y="924.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#5d5d5d">SQW</text>
+<path d="M404 950 L420 950" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="428" y="954.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#1b1b1b">GND</text>
+<path d="M404 890 L390 890" fill="none" stroke="#b9bec6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="385" y1="885" x2="395" y2="895" stroke="#5d5d5d" stroke-width="2"/>
+<line x1="385" y1="895" x2="395" y2="885" stroke="#5d5d5d" stroke-width="2"/>
+<path d="M404 920 L390 920" fill="none" stroke="#b9bec6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="385" y1="915" x2="395" y2="925" stroke="#5d5d5d" stroke-width="2"/>
+<line x1="385" y1="925" x2="395" y2="915" stroke="#5d5d5d" stroke-width="2"/>
+<path d="M404 950 L380 950 L380 956" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M380 956 L380 958" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="371.0" y1="958" x2="389.0" y2="958" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="374.0" y1="963" x2="386.0" y2="963" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="377.0" y1="968" x2="383.0" y2="968" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M752 600 L752 890 L636 890" fill="none" stroke="#13a06f" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M790 640 L790 920 L636 920" fill="none" stroke="#13a06f" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M636 948 L662 948" fill="none" stroke="#ee7d1a" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="662" y1="939" x2="662" y2="957" stroke="#ee7d1a" stroke-width="3.4" stroke-linecap="round"/>
+<text x="669" y="952.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700" fill="#ee7d1a">3.3 V</text>
+<path d="M700 1050 L720 1050" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M750 1050 L770 1050" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="720" cy="1050" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<circle cx="750" cy="1050" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<line x1="717" y1="1040" x2="753" y2="1040" stroke="#1b1b1b" stroke-width="2.4"/>
+<line x1="735" y1="1040" x2="735" y2="1033" stroke="#1b1b1b" stroke-width="2.4"/>
+<text x="735" y="1028" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700" fill="#1b1b1b">Confirm</text>
+<path d="M770 1050 L804 1050" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M640 1050 L700 1050" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M700 1100 L720 1100" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M750 1100 L770 1100" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="720" cy="1100" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<circle cx="750" cy="1100" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<line x1="717" y1="1090" x2="753" y2="1090" stroke="#1b1b1b" stroke-width="2.4"/>
+<line x1="735" y1="1090" x2="735" y2="1083" stroke="#1b1b1b" stroke-width="2.4"/>
+<text x="735" y="1078" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700" fill="#1b1b1b">Undo (Backspace)</text>
+<path d="M770 1100 L804 1100" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M640 1100 L700 1100" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M700 1150 L720 1150" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M750 1150 L770 1150" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="720" cy="1150" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<circle cx="750" cy="1150" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<line x1="717" y1="1140" x2="753" y2="1140" stroke="#1b1b1b" stroke-width="2.4"/>
+<line x1="735" y1="1140" x2="735" y2="1133" stroke="#1b1b1b" stroke-width="2.4"/>
+<text x="735" y="1128" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700" fill="#1b1b1b">Tab</text>
+<path d="M770 1150 L804 1150" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M640 1150 L700 1150" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M700 1200 L720 1200" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M750 1200 L770 1200" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="720" cy="1200" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<circle cx="750" cy="1200" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<line x1="717" y1="1190" x2="753" y2="1190" stroke="#1b1b1b" stroke-width="2.4"/>
+<line x1="735" y1="1190" x2="735" y2="1183" stroke="#1b1b1b" stroke-width="2.4"/>
+<text x="735" y="1178" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700" fill="#1b1b1b">Fn</text>
+<path d="M770 1200 L804 1200" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M640 1200 L700 1200" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M640 1050 L640 1214" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="640" cy="1100" r="5" fill="#222222"/>
+<circle cx="640" cy="1150" r="5" fill="#222222"/>
+<circle cx="640" cy="1200" r="5" fill="#222222"/>
+<path d="M640 1214 L640 1220" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="631.0" y1="1220" x2="649.0" y2="1220" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="634.0" y1="1225" x2="646.0" y2="1225" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="637.0" y1="1230" x2="643.0" y2="1230" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<text x="626" y="1120" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:700;font-style:italic" fill="#5d5d5d">other leg of</text>
+<text x="626" y="1136" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:700;font-style:italic" fill="#5d5d5d">every button</text>
+<rect x="1200" y="484" width="250" height="400" rx="10" fill="#fbfaf8" stroke="#3a2a22" stroke-width="2.4"/>
+<text x="1325.0" y="508" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15.5px;font-weight:700" fill="#1b1b1b">2.8" ILI9341 screen</text>
+<text x="1325.0" y="526" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">320 × 240 · SPI</text>
+<text x="1325.0" y="542" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">header and SD slot removed</text>
+<path d="M1184 520 L1200 520" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1208" y="524.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#ee7d1a">VCC</text>
+<path d="M1184 560 L1200 560" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1208" y="564.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#222222">GND</text>
+<path d="M1184 600 L1200 600" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1208" y="604.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#2f6fe0">CS</text>
+<path d="M1184 640 L1200 640" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1208" y="644.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#2f6fe0">RESET</text>
+<path d="M1184 680 L1200 680" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1208" y="684.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#2f6fe0">DC</text>
+<path d="M1184 720 L1200 720" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1208" y="724.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#2f6fe0">SDI (MOSI)</text>
+<path d="M1184 760 L1200 760" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1208" y="764.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#2f6fe0">SCK</text>
+<path d="M1184 800 L1200 800" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1208" y="804.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#d6337a">LED</text>
+<path d="M1184 840 L1200 840" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1208" y="844.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#5d5d5d">SDO (MISO)</text>
+<rect x="1310" y="560" width="120" height="290" rx="4" fill="#dfe7f5" stroke="#9aa9c2" stroke-width="1.6"/>
+<text x="1370" y="690" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:700" fill="#5d5d5d">touch pins</text>
+<text x="1370" y="705" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:400" fill="#5d5d5d">T_CLK … T_IRQ</text>
+<text x="1370" y="720" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:400" fill="#5d5d5d">not used</text>
+<path d="M1096 520 L1184 520" fill="none" stroke="#ee7d1a" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1184 560 L1150 560 L1150 566" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1150 566 L1150 568" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1141.0" y1="568" x2="1159.0" y2="568" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1144.0" y1="573" x2="1156.0" y2="573" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1147.0" y1="578" x2="1153.0" y2="578" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M1096 600 L1184 600" fill="none" stroke="#2f6fe0" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1096 640 L1184 640" fill="none" stroke="#2f6fe0" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1096 680 L1184 680" fill="none" stroke="#2f6fe0" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1096 720 L1184 720" fill="none" stroke="#2f6fe0" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1096 760 L1184 760" fill="none" stroke="#2f6fe0" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1096 800 L1184 800" fill="none" stroke="#d6337a" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1184 840 L1166 840" fill="none" stroke="#b9bec6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1161" y1="835" x2="1171" y2="845" stroke="#5d5d5d" stroke-width="2"/>
+<line x1="1161" y1="845" x2="1171" y2="835" stroke="#5d5d5d" stroke-width="2"/>
+<text x="1176" y="822" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11px;font-weight:700;font-style:italic" fill="#d6337a">backlight</text>
+<path d="M1096 1100 L1124 1100" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1124 1100 L1144 1100" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1174 1100 L1194 1100" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1144" cy="1100" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<circle cx="1174" cy="1100" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<line x1="1141" y1="1090" x2="1177" y2="1090" stroke="#1b1b1b" stroke-width="2.4"/>
+<line x1="1159" y1="1090" x2="1159" y2="1083" stroke="#1b1b1b" stroke-width="2.4"/>
+<text x="1159" y="1078" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700" fill="#1b1b1b">Menu</text>
+<path d="M1194 1100 L1236 1100" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1096 1150 L1124 1150" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1124 1150 L1144 1150" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1174 1150 L1194 1150" fill="none" stroke="#c79400" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1144" cy="1150" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<circle cx="1174" cy="1150" r="3.4" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<line x1="1141" y1="1140" x2="1177" y2="1140" stroke="#1b1b1b" stroke-width="2.4"/>
+<line x1="1159" y1="1140" x2="1159" y2="1133" stroke="#1b1b1b" stroke-width="2.4"/>
+<text x="1159" y="1128" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700" fill="#1b1b1b">Esc</text>
+<path d="M1194 1150 L1236 1150" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1236 1100 L1236 1170" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1236" cy="1150" r="5" fill="#222222"/>
+<path d="M1236 1170 L1236 1176" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1227.0" y1="1176" x2="1245.0" y2="1176" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1230.0" y1="1181" x2="1242.0" y2="1181" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1233.0" y1="1186" x2="1239.0" y2="1186" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<rect x="1240" y="950" width="200" height="104" rx="10" fill="#fbfaf8" stroke="#3a2a22" stroke-width="2.4" stroke-dasharray="8 6"/>
+<text x="1340.0" y="974" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15.5px;font-weight:700" fill="#1b1b1b">Vibration motor</text>
+<text x="1340.0" y="992" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">5 V module (later)</text>
+<path d="M1224 1020 L1240 1020" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1248" y="1024.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#d6337a">IN</text>
+<path d="M1440 1000 L1456 1000" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1432" y="1004.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#d7263d">VCC</text>
+<path d="M1440 1034 L1456 1034" fill="none" stroke="#3a2a22" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1432" y="1038.5" text-anchor="end" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:600" fill="#1b1b1b">GND</text>
+<path d="M1096 1000 L1150 1000 L1150 1020 L1224 1020" fill="none" stroke="#d6337a" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 6"/>
+<path d="M1456 1000 L1482 1000" fill="none" stroke="#d7263d" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1482" y1="991" x2="1482" y2="1009" stroke="#d7263d" stroke-width="3.4" stroke-linecap="round"/>
+<text x="1489" y="1004.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12.5px;font-weight:700" fill="#d7263d">5 V</text>
+<path d="M1456 1034 L1474 1034 L1474 1040" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1474 1040 L1474 1042" fill="none" stroke="#222222" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1465.0" y1="1042" x2="1483.0" y2="1042" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1468.0" y1="1047" x2="1480.0" y2="1047" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<line x1="1471.0" y1="1052" x2="1477.0" y2="1052" stroke="#222222" stroke-width="2.6" stroke-linecap="round"/>
+<rect x="1480" y="1090" width="290" height="240" rx="10" fill="#fffdf8" stroke="#3a2a22" stroke-width="2.4" stroke-dasharray="8 6"/>
+<text x="1625.0" y="1114" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15.5px;font-weight:700" fill="#1b1b1b">Backlight option</text>
+<text x="1625.0" y="1132" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400" fill="#5d5d5d">only if docs/03 step 2 reads ≥ 20 mA</text>
+<text x="1625" y="1160" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:700" fill="#1b1b1b">S8550 PNP + 1 kΩ</text>
+<circle cx="1610" cy="1236" r="22" fill="#fff" stroke="#1b1b1b" stroke-width="2.2"/>
+<line x1="1602" y1="1222" x2="1602" y2="1250" stroke="#1b1b1b" stroke-width="3"/>
+<path d="M1602 1230 L1622 1218" fill="none" stroke="#1b1b1b" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1602 1242 L1622 1254" fill="none" stroke="#1b1b1b" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1622 1218 L1622 1192" fill="none" stroke="#ee7d1a" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1630" y="1206" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:600" fill="#ee7d1a">emitter → 3.3 V</text>
+<path d="M1622 1254 L1622 1280" fill="none" stroke="#d6337a" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1630" y="1276" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:600" fill="#d6337a">collector → screen LED</text>
+<path d="M1602 1236 L1570 1236" fill="none" stroke="#d6337a" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="1536" y="1229" width="34" height="14" rx="2" fill="#fff" stroke="#1b1b1b" stroke-width="2"/>
+<path d="M1536 1236 L1510 1236" fill="none" stroke="#d6337a" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1553" y="1223" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:600" fill="#5d5d5d">1 kΩ</text>
+<text x="1506" y="1258" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;font-weight:700" fill="#d6337a">GPIO13</text>
+<text x="1625" y="1314" text-anchor="middle" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:11.5px;font-weight:400;font-style:italic" fill="#5d5d5d">then set invert = true under [backlight]</text>
+<rect x="1480" y="108" width="290" height="338" rx="12" fill="#fafafa" stroke="#e3e3e3"/>
+<text x="1500" y="132" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:15px;font-weight:700" fill="#1b1b1b">Wire colours</text>
+<path d="M1500 158 L1534 158" fill="none" stroke="#8c1d18" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="162.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">Battery + (before the boost)</text>
+<path d="M1500 181 L1534 181" fill="none" stroke="#d7263d" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="185.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">5 V</text>
+<path d="M1500 204 L1534 204" fill="none" stroke="#ee7d1a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="208.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">3.3 V</text>
+<path d="M1500 227 L1534 227" fill="none" stroke="#222222" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="231.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">GND</text>
+<path d="M1500 250 L1534 250" fill="none" stroke="#a0522d" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="254.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">USB 5 V (VBUS)</text>
+<path d="M1500 273 L1534 273" fill="none" stroke="#2f6fe0" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="277.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">Screen (SPI)</text>
+<path d="M1500 296 L1534 296" fill="none" stroke="#13a06f" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="300.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">I2C</text>
+<path d="M1500 319 L1534 319" fill="none" stroke="#0f8b8d" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="323.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">Analog</text>
+<path d="M1500 342 L1534 342" fill="none" stroke="#c79400" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="346.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">Buttons</text>
+<path d="M1500 365 L1534 365" fill="none" stroke="#d6337a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="369.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">Backlight / vibration (PWM)</text>
+<path d="M1500 388 L1534 388" fill="none" stroke="#5b4fc8" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="392.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">USB data</text>
+<path d="M1500 411 L1534 411" fill="none" stroke="#6b7785" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1546" y="415.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">Serial (keep free)</text>
+<path d="M1500 434 L1522 434" fill="none" stroke="#b9bec6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="1517" y1="429" x2="1527" y2="439" stroke="#5d5d5d" stroke-width="2"/>
+<line x1="1517" y1="439" x2="1527" y2="429" stroke="#5d5d5d" stroke-width="2"/>
+<text x="1546" y="438.5" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13px;font-weight:400" fill="#1b1b1b">Not connected</text>
+<text x="40" y="1356" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13.5px;font-weight:400" fill="#1b1b1b">Power: USB-C → TP4056 (charges the cells) → OUT+ → (switch) → MT3608 boost at 5.1 V → Pi pins 2/4. OUT− is the ground for everything.</text>
+<text x="40" y="1378" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13.5px;font-weight:400" fill="#1b1b1b">Everything else runs from the Pi's 3.3 V (pins 1 and 17). Never feed the joystick or the ADS1115 from 5 V.</text>
+<text x="40" y="1400" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13.5px;font-weight:400" fill="#1b1b1b">Each sense line is two 100 kΩ resistors in series; the middle point goes to the ADS1115 (A2 battery, A3 USB).</text>
+<text x="40" y="1422" text-anchor="start" style="font-family:'Atkinson Hyperlegible','Segoe UI',Helvetica,Arial,sans-serif;font-size:13.5px;font-weight:400" fill="#1b1b1b">Buttons: use two diagonally opposite legs of each 4-leg switch; the Pi's built-in pull-ups do the rest. Joystick SW is a button too.</text>
+</svg>
