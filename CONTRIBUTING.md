@@ -1,6 +1,6 @@
 # Contributing to ChAIpi
 
-Thanks for helping. Bug reports, hardware notes from your own build, and pull requests are all welcome.
+Thanks for helping. Bug reports, hardware notes from your own build, and suggested changes are all welcome. Only collaborators can open pull requests, so to suggest a change, open an issue that describes it; a link to a branch on your fork is welcome there.
 
 ## Before you start
 - Read [docs/13-device-software.md](docs/13-device-software.md) for how the software fits together and [docs/12-revision-3.md](docs/12-revision-3.md) for the hardware.
@@ -14,7 +14,7 @@ Thanks for helping. Bug reports, hardware notes from your own build, and pull re
 - `legacy/phase0-prototype/` is the first prototype (OLED + voice). It isn't used on the device, so please don't build on it.
 
 ## Tests
-Run these before sending a pull request. None of them needs a Pi.
+Run these before suggesting a change. None of them needs a Pi.
 
 ```bash
 python3 -m pytest tests/test_input.py tests/test_transfer.py -q
@@ -26,9 +26,9 @@ python3 -m pytest tests/test_input.py tests/test_transfer.py -q
 /System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Helpers/jsc device/ui/test/lib-test.js -- device/ui/lib config/chaipi.example.toml
 ```
 
-The JavaScript tests use JavaScriptCore, which every Mac has. On Linux, use the `jsc` from WebKitGTK, or let GitHub Actions run them on your pull request. After a UI change, also open the emulator (`python3 tools/build_emulator.py /tmp/emu.html --inline-fonts`) and click through the screens you touched.
+The JavaScript tests use JavaScriptCore, which every Mac has. On Linux, use the `jsc` from WebKitGTK, or let GitHub Actions run them on your fork. After a UI change, also open the emulator (`python3 tools/build_emulator.py /tmp/emu.html --inline-fonts`) and click through the screens you touched.
 
-## Pull requests
-- Keep each pull request to one change, and say how you tested it: in the emulator, the tests, or on real hardware (which board and screen).
+## Changes
+- Keep each change to one thing, and say how you tested it: in the emulator, the tests, or on real hardware (which board and screen).
 - Be exact about what ran on hardware. "Tested in the emulator only" is a perfectly good answer.
 - By contributing you agree that your work is released under the project's licence (GPL-3.0-or-later).
